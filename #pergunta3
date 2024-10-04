@@ -1,0 +1,14 @@
+# Pergunta o nome do usuário
+print("Qual é o seu nome?")
+
+# Captura o valor do teclado e armazena na variável 'nome'
+nome = input()
+
+# Exibe uma mensagem personalizada usando a variável
+print(f"Olá, {nome}! Bem-vindo(a)!")
+
+# Armazenando um valor adicional em outra variável
+idade = input("Quantos anos você tem? ")
+
+# Recuperando e exibindo os valores armazenados nas variáveis
+print(f"Você se chama {nome} e tem {idade} anos.")
